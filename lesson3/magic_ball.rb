@@ -41,5 +41,5 @@ answers = [
 # Выводим случайный элемент массива answers
 puts greetings.sample
 puts ''
-sleep(rand(0.1..0.9))
+sleep(rand(0.1..1.9))
 puts answers.sample
