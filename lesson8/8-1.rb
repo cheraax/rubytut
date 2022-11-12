@@ -1,4 +1,5 @@
-# encoding: utf-8
+# frozen_string_literal: true
+
 #
 # Программа, проверяющая палиндром введенное слово или нет, версия 1
 
@@ -12,7 +13,7 @@ reverse_string = original_string.reverse
 
 # Сравниваем обе строки и выносим вердикт
 if reverse_string == original_string
-  puts "Да, это палиндром"
+  puts 'Да, это палиндром'
 else
-  puts "Нет, это не палиндром"
+  puts 'Нет, это не палиндром'
 end
