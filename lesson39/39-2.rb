@@ -1,8 +1,8 @@
-template = File.dirname(__FILE__) + '/39-2.html'
+# frozen_string_literal: true
 
-unless File.exist?(template)
-  abort "Не найден шаблон!"
-end
+template = "#{File.dirname(__FILE__)}/39-2.html"
+
+abort 'Не найден шаблон!' unless File.exist?(template)
 
 template_data = File.read(template, encoding: 'UTF-8')
 
