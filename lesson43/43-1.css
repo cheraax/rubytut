@@ -1,0 +1,25 @@
+body
+{
+  font-family: Verdana, Geneva, sans-serif;
+  width: 90%;
+  margin: auto;
+}
+.quote {
+  font-family: Georgia, serif;
+  background-color: #FFFCE6;
+  padding: 2em;
+  border-left: 5px solid #F24D16;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.author {
+  color: #7D3178;
+  text-align: right;
+}
+.note{
+  font-family: "Courier New", Courier, monospace;
+  background-color: #EDD834;
+  padding: 1em;
+  font-weight: bold;
+} 
