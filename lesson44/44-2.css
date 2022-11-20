@@ -1,0 +1,25 @@
+body{
+  margin: 1em;
+}
+.card{
+  margin: 10px;
+  background: #65878F;
+  width: 500px;
+  padding: 15px;
+  color: white;
+}
+.card:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.title{
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+.photo{
+  float: left;
+}
+.description{
+  padding-left: 220px;
+}
