@@ -17,6 +17,7 @@
 }
 
 .button{
+  border-radius: 10px;
   font-size: 1.3em;
   margin-top: 10px;
   margin-bottom: 10px;
