@@ -10,13 +10,11 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
 .input-field{
   height: 30px;
   font-size: 1.4em;
   border-radius: 5px;
 }
-
 .button{
   border-radius: 10px;
   font-size: 1.3em;
@@ -30,7 +28,6 @@
   background-color: rgb(195, 243, 168);
   cursor: pointer;
 }
-
 .search{
   width: 50%;
   float: left;
