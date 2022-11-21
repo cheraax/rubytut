@@ -1,0 +1,33 @@
+.wrapper{
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+}
+.title{
+  text-align: left;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.input-field{
+  height: 30px;
+  font-size: 1.4em;
+}
+
+.button{
+  font-size: 1.3em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 40px;
+}
+
+.search{
+  width: 50%;
+  float: left;
+}
+form{
+  
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="46-1.css">
+  <title>Search with YT/Vimeo</title>
+  <base target="_blank">
+</head>
+<body>
+<div class="wrapper">
+  <div class="search">
+    <div class="icon">
+      <img src="yt.png" alt="youtube" height="30" width="30">
+    </div>
+    <div class="title">
+      Youtube
+    </div>
+    <form action="https://www.youtube.com/results?" method="get">
+      <input class="input-field" type="text" name="search_query" value="">
+      <div>
+        <input class="button" type="submit" value="Search">
+      </div>   
+    </form>
+  </div>
+  <div class="search">
+    <div class="icon">
+      <img src="vm.png" alt="vimeo" height="30" width="30">
+    </div>
+    <div class="title">
+      Vimeo
+    </div>
+    <form action="https://vimeo.com/search?" method="get">
+      <input class="input-field" type="text" name="q" value="">
+      <div>
+        <input class="button" type="submit" value="Search">
+      </div>
+    </form>
+  </div>
+</div>  
+</body>
+</html>
